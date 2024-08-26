@@ -1,0 +1,45 @@
+baseURL: https://mydevjourney.github.io/
+languageCode: 'fr'
+title: <MyDevJourney/>
+subTitle: ⛵ towards CDA
+theme: ['PaperMod']
+
+menu:
+  main:
+    - identifier: articles
+      name: Blog
+      url: /article/
+      weight: 1
+    - identifier: techwatch
+      name: TechWatch
+      url: /techwatch/
+      weight: 2
+    - identifier: chroniques
+      name: Chroniques
+      url: /chroniques/
+      weight: 3
+    - identifier: à propos
+      name: À Propos
+      url: /a-propos/
+      weight: 4
+
+params:
+  profileMode:
+    enabled: true
+    title: Embark on &lt;MyDevJourney/&gt; # optional default will be site title
+    subtitle:
+    imageUrl: '/img/mydevjourney.png' # optional
+    #imageTitle: "<title of image as alt>" # optional
+    imageWidth: 340 # custom size
+    imageHeight: 340 # custom size
+    buttons:
+      - name: Projet CDA
+        url: '/article'
+      - name: À Propos
+        url: '/a-propos/'
+
+  socialIcons: # optional
+   - name: github
+     url: 'https://github.com/sdp971/'
+   - name: linkedin
+     url: 'https://www.linkedin.com/in/severine-dorimond-pereira/'
