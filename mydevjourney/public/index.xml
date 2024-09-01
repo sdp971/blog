@@ -10,16 +10,30 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First</title>
-      <link>http://localhost:1313/article/first/</link>
+      <link>http://localhost:1313/blog/first/</link>
       <pubDate>Sun, 25 Aug 2024 22:44:28 +0200</pubDate>
-      <guid>http://localhost:1313/article/first/</guid>
+      <guid>http://localhost:1313/blog/first/</guid>
       <description>This is the heading one Blablaba </description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:1313/chroniques/post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://localhost:1313/chroniques/post/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/techwatch/post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/techwatch/post/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/%C3%A0-propos/post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/%C3%A0-propos/post/</guid>
       <description></description>
     </item>
   </channel>
